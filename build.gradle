@@ -1,4 +1,4 @@
-// Top-level build file where you can add configuration options common to all sub-projects/modules.  hola esto es una prueba
+// Top-level build file where you can add configuration options common to all sub-projects/modules.  hola es una prueba
 
 buildscript {
     repositories {
