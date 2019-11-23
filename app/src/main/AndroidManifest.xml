@@ -9,13 +9,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".activity_productos"></activity>
+        <activity android:name=".activity_ubicanos" />
+        <activity android:name=".activity_registrese" />
+        <activity android:name=".Activity_splash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Login_Activity" />
+
+        <activity
+            android:name=".Activity_contactenos"
+            android:label="@string/title_activity_contactenos"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Activity_quiensomos" />
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

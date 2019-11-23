@@ -1,18 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@drawable/fondo1"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+    <Button
+        android:id="@+id/btnProducto"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:background="#fa8072"
+        android:text="Productos"
+        android:textColor="#FFEB3B"
+        android:textSize="25dp"
+        android:onClick="btn_producto"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"/>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <Button
+        android:id="@+id/btnQuiensomos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#fa8072"
+        android:text="Quien somos"
+        android:textColor="#FFEB3B"
+        android:textSize="25dp"
+        android:onClick="btn_quienes_somos"
+        android:layout_below="@+id/btnProducto"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/btnUbicanos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#fa8072"
+        android:text="Ubicanos"
+        android:onClick="btn_ubicacion"
+        android:textColor="#FFEB3B"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btnQuiensomos"
+        />
+
+    <Button
+        android:id="@+id/btnContactenos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#fa8072"
+        android:onClick="btn_conacto"
+        android:text="Contactanos"
+        android:textColor="#FFEB3B"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/btnUbicanos" />
+
+    </RelativeLayout>

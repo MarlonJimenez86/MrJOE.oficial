@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "209483108604",
+    "firebase_url": "https://mrjoe-d2902.firebaseio.com",
+    "project_id": "mrjoe-d2902",
+    "storage_bucket": "mrjoe-d2902.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:209483108604:android:4f3b2d3c20341713450779",
+        "android_client_info": {
+          "package_name": "com.example.mrjoe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "209483108604-k0v5mu3qvl3u1ip592i9jaa3leeiht7f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mrjoe",
+            "certificate_hash": "eafd8c54008a1516b74eaa330bf4f622c6616431"
+          }
+        },
+        {
+          "client_id": "209483108604-ucr9nt4kjdeckkf6h5tsip6tqe3sstoq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1jLFJ56gBA2x3SbskNj_GVh5OMyN_M2Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "209483108604-ucr9nt4kjdeckkf6h5tsip6tqe3sstoq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
